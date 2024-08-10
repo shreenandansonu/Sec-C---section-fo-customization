@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'margin';
+    src: url('fonts/Margin\ DEMO.otf');
+}
 body{
     background-color:#FCBF49 ;
+    font-family: margin;
+}
+
+#textbg{
+    height: 200px;
+    background-image: url('images/hrobg.svg');
+    background-size: contain; /* Adjusts the image to cover the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: #EAE2B7;
+    font-size: xx-large;
 }
